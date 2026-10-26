@@ -1,0 +1,13 @@
+{
+  "schema": "sealguard-manifest-v1.0",
+  "repository": "BenFrohman/global-from-local-restart",
+  "doi": "10.5281/zenodo.23653003",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "public_surface_policy": "VERIFIED_PUBLIC_SURFACE_ONLY",
+  "classified_ip_redaction": "ACTIVE_ZERO_LEAKAGE",
+  "merkle_root_sha256": "bb14de00a0a8e432c6452aeb6afa985e8592306657a4060c1062c12a22f27133",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "67d2b844ebbec92b51b0745ba15631c222ce7380650bf326367b376c8f219f6bfcc59ff9b8396e850a2e00d841146ed69270655c68d5f9414ff7846bc6b26f06"
+}

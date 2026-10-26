@@ -1,0 +1,27 @@
+{
+  "title": "Global-from-Local Restart in Lean 4: Conditional Continuation Theorem Prohibiting Finite-Time Termination Under Uniform Ceiling Bounds",
+  "upload_type": "software",
+  "description": "Standalone zero-sorry Lean 4 formalization (`Continuation.lean`, `GlobalFromLocalRestart.lean`) proving `Continuation.no_finite_last_time_of_restart`: an abstract continuation theorem showing that any evolution system satisfying local existence with uniform step size below a ceiling, a priori ceiling preservation, and uniqueness cannot terminate at a finite maximal time T*. Proves the abstract conditional continuation lemma in Lean 4 with zero sorry; explicitly states that applying it to 3D Navier-Stokes requires supplying the a priori ceiling hypothesis independently. Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.",
+  "creators": [
+    {
+      "name": "Frohman, Benjamin Stanley",
+      "orcid": "0009-0006-7068-3718"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": [
+    "Lean 4",
+    "Local-to-global continuation",
+    "Evolution equations",
+    "Maximal existence time",
+    "Bootstrap restart argument"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BenFrohman/global-from-local-restart",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

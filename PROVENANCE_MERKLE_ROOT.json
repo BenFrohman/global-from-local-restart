@@ -1,0 +1,80 @@
+{
+  "schema": "sealguard-merkle-provenance-v1.0",
+  "repository": "BenFrohman/global-from-local-restart",
+  "doi": "10.5281/zenodo.23653003",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "merkle_root_sha256": "bb14de00a0a8e432c6452aeb6afa985e8592306657a4060c1062c12a22f27133",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "67d2b844ebbec92b51b0745ba15631c222ce7380650bf326367b376c8f219f6bfcc59ff9b8396e850a2e00d841146ed69270655c68d5f9414ff7846bc6b26f06",
+  "leaf_count": 13,
+  "leaves": [
+    {
+      "path": ".zenodo.json",
+      "sha256": "47c75d0d117f08208a6cb9519967b62ba0394d4c2f3b7eda6697bb5347e7c782",
+      "bytes": 1378
+    },
+    {
+      "path": "AUTHORS.md",
+      "sha256": "1732529c9d516b14378c2ea60b7a29a9dd01385bb5f302efa163c42b3dceb130",
+      "bytes": 320
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "cc77d9e4f773dc2b3680bddf4755a907e7e2e85dcd23434ba387139484fb5479",
+      "bytes": 652
+    },
+    {
+      "path": "COPYRIGHT.md",
+      "sha256": "8715875de765290150c5538e9fe08accab81b21a388d54246d09a90e32446b08",
+      "bytes": 313
+    },
+    {
+      "path": "Continuation.lean",
+      "sha256": "e66c894aee3cbf99d43b0b35aba301a0383e35b1d68f65785b280aa2498ab506",
+      "bytes": 1881
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ec43eec7417d548fb78a8dc50830f1d854b91a89c2daf0d4e957601515c15e87",
+      "bytes": 10773
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "acb39be7c52b54c5b786baa9f4f83c17b6e5e2c3e1c6d605c91bf6d576ab2abf",
+      "bytes": 612
+    },
+    {
+      "path": "README.md",
+      "sha256": "c8f3c256eb64f92b7884c03885bd44501864087c7501b0f5e26874ffddad7d3f",
+      "bytes": 2022
+    },
+    {
+      "path": "audit/TITAN_AUDIT_CERTIFICATE.json",
+      "sha256": "0f8a3ea3b0e34122e83fc1d288184a2219269d576f39e79e840227789b34afaf",
+      "bytes": 1039
+    },
+    {
+      "path": "lakefile.lean",
+      "sha256": "87efb1784f4ab7c955c57a2928565c0aa39a0f1a38459677eda76688eba7be3a",
+      "bytes": 363
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "1098ca8368e0db12138f33b070187e1f6527984ae0451a587b20e3e661f96a76",
+      "bytes": 29
+    },
+    {
+      "path": "paper/global_from_local_restart_Technical_Monograph_2026.pdf",
+      "sha256": "d7bc7091ea85243d8422c38d677ae37f6e22bfbefae8d8f6c29682d017d80b8d",
+      "bytes": 47266
+    },
+    {
+      "path": "paper/global_from_local_restart_Technical_Monograph_2026.tex",
+      "sha256": "b317dbfb68895b6ed8d49a87a1975e76ba04472b296ed051905c3b517b5ae339",
+      "bytes": 4300
+    }
+  ]
+}

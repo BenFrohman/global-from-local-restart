@@ -1,0 +1,29 @@
+{
+  "schema": "titan-audit-v1.0",
+  "repository": "BenFrohman/global-from-local-restart",
+  "doi": "10.5281/zenodo.23653003",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "lean_module_count": 2,
+  "sorry_count": 0,
+  "modules": [
+    {
+      "file": "Continuation.lean",
+      "sha256": "e66c894aee3cbf99d43b0b35aba301a0383e35b1d68f65785b280aa2498ab506",
+      "declarations": 3,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "lakefile.lean",
+      "sha256": "87efb1784f4ab7c955c57a2928565c0aa39a0f1a38459677eda76688eba7be3a",
+      "declarations": 0,
+      "sorry_tokens": 0
+    }
+  ],
+  "verdict": "PASS_ZERO_SORRY_HONEST_BOUNDARY",
+  "payload_sha256": "12439e60330e11b3a29e89c570b36b8a1148e69873a91822cf6c1a177d3205a8",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "698b8a2ea16f973062bcf62e6f6c4a08b1e79e8a322afcb3c7c434c24f1a237830413218d82528f9e91944df863c0a7db073ea4514e03f8c4b7cbfa235538000"
+}

@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+
+\title{\textbf{Global-from-Local Restart in Lean 4: Conditional Continuation Theorem Prohibiting Finite-Time Termination Under Uniform Ceiling Bounds}}
+\author{Benjamin Stanley Frohman\\
+\small ORCID: \href{https://orcid.org/0009-0006-7068-3718}{0009-0006-7068-3718} \quad|\quad
+GitHub: \href{https://github.com/BenFrohman/global-from-local-restart}{\texttt{BenFrohman/global-from-local-restart}}\\
+\small Dedicated 1-to-1 Zenodo DOI: \href{https://doi.org/10.5281/zenodo.23653003}{\texttt{10.5281/zenodo.23653003}}}
+\date{Earliest Commit Provenance: 2026-10-07 04:10:30 AM CDT (UTC-5)\\
+Siloed Archival Edition: October 25, 2026 (America/Chicago CDT)}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Standalone zero-sorry Lean 4 formalization (`Continuation.lean`, `GlobalFromLocalRestart.lean`) proving `Continuation.no\_finite\_last\_time\_of\_restart`: an abstract continuation theorem showing that any evolution system satisfying local existence with uniform step size below a ceiling, a priori ceiling preservation, and uniqueness cannot terminate at a finite maximal time T*.
+\end{abstract}
+
+\section{Scope, Scientific Honesty, and Non-Claim Boundary}
+Proves the abstract conditional continuation lemma in Lean 4 with zero sorry; explicitly states that applying it to 3D Navier-Stokes requires supplying the a priori ceiling hypothesis independently.
+
+\begin{itemize}
+  \item \textbf{Repository:} \texttt{https://github.com/BenFrohman/global-from-local-restart}
+  \item \textbf{Dedicated 1-to-1 Zenodo DOI:} \texttt{10.5281/zenodo.23653003}
+  \item \textbf{Earliest Git Commit SHA:} \texttt{0aa100b6be5851bd0b73ed51e2ae03078bfa6a46} (2026-10-07 04:10:30 AM CDT (UTC-5))
+  \item \textbf{License \& Copyright:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.
+\end{itemize}
+
+\section{Technical Overview \& Repository Specification}
+Copyright (c) 2026 Benjamin Stanley Frohman. All rights reserved.
+
+Author: Benjamin Stanley Frohman
+
+License: Apache-2.0. See `LICENSE`, `NOTICE`, and `COPYRIGHT.md`.
+
+`Continuation.no\_finite\_last\_time\_of\_restart` is an induction. If time 0 is
+
+reached and every reached time extends by a positive step, then there is no
+
+finite last reached time.
+
+`Continuation.global\_of\_local\_restart` is that induction with the step taken
+
+from a `LocalWitness`. The witness is an argument. It is not constructed from
+
+smooth data.
+
+This file does not contain a uniqueness hypothesis. It does not derive a cubic
+
+sink. It is not an unconditional Navier-Stokes theorem.
+
+Pinned toolchain: `leanprover/lean4:v4.30.0-rc1`.
+
+```bash
+
+git clone https://github.com/BenFrohman/global-from-local-restart.git
+
+cd global-from-local-restart
+
+lake build
+
+```
+
+\section{Cryptographic Provenance \& File Inventory}
+Every source artifact in \texttt{BenFrohman/global-from-local-restart} is audited via \texttt{titan-audit}
+(\texttt{audit/TITAN\_AUDIT\_CERTIFICATE.json}) and sealed under a deterministic SHA-256 Merkle tree via
+\texttt{sealguard} (\texttt{PROVENANCE\_MERKLE\_ROOT.json}) signed with Ed25519 key fingerprint
+\texttt{b428fb72676f1c52}.
+
+\begin{center}
+\small
+\begin{tabular}{p{0.52\textwidth}rr}
+\toprule
+\textbf{Repository Path} & \textbf{Size} & \textbf{SHA-256 Prefix} \\
+\midrule
+\texttt{AUTHORS.md} & 103 B & \texttt{f1396b31be4df588...} \\
+\texttt{COPYRIGHT.md} & 313 B & \texttt{8715875de7652901...} \\
+\texttt{Continuation.lean} & 1881 B & \texttt{e66c894aee3cbf99...} \\
+\texttt{LICENSE} & 11355 B & \texttt{9da72c2bee4f20ba...} \\
+\texttt{NOTICE} & 676 B & \texttt{86df144394d21f55...} \\
+\texttt{README.md} & 883 B & \texttt{96206f7c9343648a...} \\
+\texttt{lakefile.lean} & 363 B & \texttt{87efb1784f4ab7c9...} \\
+\texttt{lean-toolchain} & 29 B & \texttt{1098ca8368e0db12...} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vfill
+\noindent\rule{\textwidth}{0.4pt}\\
+\footnotesize
+\textbf{Attribution \& Licensing Notice:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman (ORCID: \texttt{0009-0006-7068-3718}).
+Licensed under the Apache License, Version 2.0.
+\end{document}
