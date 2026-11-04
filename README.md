@@ -43,3 +43,8 @@ lake build
 - **SealGuard SHA-256 Merkle Root:** `bb14de00a0a8e432c6452aeb6afa985e8592306657a4060c1062c12a22f27133` (`PROVENANCE_MERKLE_ROOT.json`)
 - **Titan Audit Certificate:** `audit/TITAN_AUDIT_CERTIFICATE.json` (Ed25519 key `b428fb72676f1c52`)
 - **Scope & Scientific Boundary:** Proves the abstract conditional continuation lemma in Lean 4 with zero sorry; explicitly states that applying it to 3D Navier-Stokes requires supplying the a priori ceiling hypothesis independently.
+
+## Zenodo archive
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23653002.svg)](https://doi.org/10.5281/zenodo.23653002) Global-from-Local Restart in Lean 4: Conditional Continuation Theorem Prohibiting Finite-Time Termination Under Uniform Ceiling Bounds — all versions: [10.5281/zenodo.23653002](https://doi.org/10.5281/zenodo.23653002); latest version: [10.5281/zenodo.23653003](https://doi.org/10.5281/zenodo.23653003)
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867518.svg)](https://doi.org/10.5281/zenodo.23867518) Global-from-Local Restart in Lean 4: Conditional Continuation Theorem Prohibiting Finite-Time Termination Under Uniform Ceiling Bounds — all versions: [10.5281/zenodo.23867518](https://doi.org/10.5281/zenodo.23867518); latest version: [10.5281/zenodo.23905240](https://doi.org/10.5281/zenodo.23905240)
