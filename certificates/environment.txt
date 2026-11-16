@@ -1,0 +1,6 @@
+commit: 9deba978c7a522027cf5e4e8a7ccb73d652def7f
+lean-toolchain: leanprover/lean4:v4.30.0-rc1
+lean --version: Lean (version 4.30.0-rc1, x86_64-unknown-linux-gnu, commit 714601baf118066cbf3f282361339c6d06665b2a, Release)
+lake --version: Lake version 5.0.0-src+714601b (Lean version 4.30.0-rc1)
+date (UTC): 2026-11-16T19:25:14Z
+run: https://github.com/BenFrohman/global-from-local-restart/actions/runs/43938037369

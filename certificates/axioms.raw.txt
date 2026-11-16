@@ -1,0 +1,6 @@
+'Continuation.LocalWitness.T_pos' does not depend on any axioms [module Continuation]
+'Continuation.LocalWitness.mk.inj' does not depend on any axioms [module Continuation]
+'Continuation.no_finite_last_time_of_restart' does not depend on any axioms [module Continuation]
+'Continuation.global_of_local_restart' does not depend on any axioms [module Continuation]
+'Continuation.LocalWitness.mk.sizeOf_spec' does not depend on any axioms [module Continuation]
+'Continuation.LocalWitness.mk.injEq' depends on axioms: [propext] [module Continuation]
