@@ -1,0 +1,16 @@
+# Kernel certificate manifest
+# source commit: 9895e686edb2cb708281be0b337b44f536eb6122
+# lean-toolchain: leanprover/lean4:v4.30.0-rc1
+# Mathlib: none (no Mathlib dependency)
+# CI run: https://github.com/BenFrohman/global-from-local-restart/actions/runs/43953925665
+# rebuild: git clone https://github.com/BenFrohman/global-from-local-restart.git && cd global-from-local-restart && git checkout 9895e686edb2cb708281be0b337b44f536eb6122 && lake build && python3 certificates/tools/sorry_scan.py && python3 certificates/tools/gen_audit.py /tmp/KernelCertificateAudit.lean /tmp/modules.txt && lake env lean /tmp/KernelCertificateAudit.lean > /tmp/axioms.raw.txt && python3 certificates/tools/check_audit.py /tmp/axioms.raw.txt | tail -n 1
+# verify: cd certificates && sha256sum -c MANIFEST.sha256
+e247d316e5e92b390e5bf7d5e4340e2c592eef1dbbb35b72745195385505dfcc  CERTIFICATE.md
+1551e0d064d05d17cd17c1540827366227372fe8e6f9ca399d262cb894caa18b  KernelCertificateAudit.lean.txt
+860116a091b567366b0cf25d75ef84449c242a736a40e5e5d22a1bcb73cb4434  axioms.raw.txt
+7895b2b674959bf186ca5db0dda11e989c1d799ef897ea55705c8793287bd6ea  axioms.txt
+a92c26a0031462793352c4636095fdb875d71ac1e87e7c2450234f7eee3537c6  build.log
+b71f06d92f0b728694a74fd11d2b110da203543ff7abdcb83388c3ceebba5d66  environment.txt
+ae471675e2d77140d5a875835dcf9f7ceed250f69fb35eee86118830b46a8b4c  leanchecker.txt
+f285956eb2de100344011bb20cc0793dc2106e39f72f544aeb7564247852fb62  modules.txt
+f6a916ad807c8786f91618abb8f4c6a1d08d353e56ab03e470042d85ac819776  sorry-scan.txt

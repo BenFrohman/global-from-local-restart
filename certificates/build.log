@@ -1,4 +1,4 @@
-ℹ [2/3] Built Continuation (200ms)
+ℹ [2/3] Built Continuation (175ms)
 info: Continuation.lean:55:0: 'Continuation.no_finite_last_time_of_restart' does not depend on any axioms
 info: Continuation.lean:56:0: 'Continuation.global_of_local_restart' does not depend on any axioms
 Build completed successfully (3 jobs).
